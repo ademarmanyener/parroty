@@ -1,0 +1,17 @@
+.my-content {
+	background-color: #F8F9F9;
+}
+
+.my-header {
+	background-color: #212F3C;
+	border-top: 5px solid #58D68D;
+	color: #F8F9F9;
+}
+
+.my-footer {
+	background-color: #3498DB;
+}
+
+body {
+	background-color: #212F3C;
+}
