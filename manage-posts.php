@@ -111,7 +111,7 @@ if ($_GET["option"] == "add"){
           <div class="row">
             <div class="col-sm-4 text-right font-second align-self-center" style="font-size: 25px;">Description: </div>
 						<!--<div class="col-sm-6"><input type="text" name="description" class="form-control"></div>-->
-						<div class="col-sm-6"><textarea name="description" class="form-control" rows="10">'.$row["product_description"].'</textarea></div>
+						<div class="col-sm-6"><textarea name="description" class="form-control" rows="10"></textarea></div>
           </div>
           <br>
           <div class="row">
