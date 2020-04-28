@@ -65,7 +65,7 @@ if (isset($_POST["login"])){
 	} 
 } else if (isset($_POST["register"])){
 	if ($canRegister == 1){
-		$cnn->query("INSERT INTO users VALUES('$username', '$password', 'src/img/logo.png', '".date('d-m-Y H:i:s')."', 'normal')");
+		$cnn->query("INSERT INTO users VALUES('$username', '$password', 'src/img/logo-black.png', '".date('d-m-Y H:i:s')."', 'normal')");
 		$errorText = "Kayıt işlemi başarılı.";
 	} else {
 		$errorText = "Kayıt işlemi başarısız.";

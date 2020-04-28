@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.1
+-- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
 -- Anamakine: localhost
--- Üretim Zamanı: 22 Şub 2020, 13:16:03
+-- Üretim Zamanı: 28 Nis 2020, 17:06:38
 -- Sunucu sürümü: 10.4.11-MariaDB
--- PHP Sürümü: 7.4.2
+-- PHP Sürümü: 7.4.5
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -87,7 +86,7 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`product_id`, `product_title`, `product_price`, `product_description`, `product_image`, `product_number`, `product_added_time`, `product_added_by`) VALUES
-(2, 'TEST ÜRÜN EKLİYORUM', 25, 'MERHANBA ARKAŞADLAR BU BİR \r\n\r\n\r\nTEST ĞRÜN', 'https://previews.123rf.com/images/victoroancea/victoroancea1201/victoroancea120100059/12055848-tv-color-test-pattern-test-card-for-pal-and-ntsc.jpg', 5, '22-02-2020 13:03:34', 'adem');
+(2, 'TEST ÜRÜN EKLİYORUM', 25, '<b>ooooooo bu bir test ürüüünnnn</b>\r\n<br>\r\nkknasf\r\nkmkn\r\n<br>\r\n<br>\r\n<br>\r\ntessstttttt', 'https://previews.123rf.com/images/victoroancea/victoroancea1201/victoroancea120100059/12055848-tv-color-test-pattern-test-card-for-pal-and-ntsc.jpg', 5, '22-02-2020 13:03:34', 'adem');
 
 -- --------------------------------------------------------
 
@@ -144,8 +143,8 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`username`, `password`, `avatar`, `added_time`, `permission`) VALUES
-('', '', 'src/img/logo.png', '22-02-2020 12:56:58', 'normal'),
-('adem', '1234', 'https://img.freepik.com/free-vector/abstract-technology-particle-background_52683-25766.jpg?size=626&ext=jpg', '22-02-2020 12:57:10', 'admin');
+('adem', '1234', 'https://img.freepik.com/free-vector/abstract-technology-particle-background_52683-25766.jpg?size=626&ext=jpg', '22-02-2020 12:57:10', 'admin'),
+('test', '1234', 'src/img/logo-black.png', '28-04-2020 16:43:08', 'normal');
 
 --
 -- Dökümü yapılmış tablolar için indeksler
